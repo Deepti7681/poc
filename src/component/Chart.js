@@ -1,4 +1,6 @@
 import ChartBar from "./ChartBar"
+//this is master check
+//cherry ick
 const Chart = (props) => {
     const dataPointValues = props.dataPoints.map(dataPoint => dataPoint.value);
     const totalMaximum = Math.max(...dataPointValues);
